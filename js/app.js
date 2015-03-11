@@ -87,7 +87,7 @@ var ViewModel = function() {
 
 	this.setCurrent = function(clickedCat) {
 		self.currentCat(clickedCat);
-		console.log(cat.name);
+		console.log(clickedCat.name);
 	}
 
 	this.clickLog = function(cat) {
