@@ -1,6 +1,10 @@
 
 
-li:hover {
+.cat-list:hover {
 	color: blue;
-	text-decoration: underline;
+	cursor: pointer;
+}
+
+li {
+	list-style: none;
 }

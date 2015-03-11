@@ -18,18 +18,18 @@ var initialCats = [
 
 	{
 		clickCount: 0,
-		name: "Sleepy",
+		name: "Snoozie",
 		imgSrc: "https://placeimg.com/400/400/animals",
 		imageAttribution: "https:placeimg.com",
-		nickNames: ["Mr. Bounce", "The Nemesis", "Stripe", "Rubber Tush"]
+		nickNames: ["ZZZZZipper", "Wood Choppa", "Coffee?", "mmmuhhhwut?"]
 	},
 
 	{
 		clickCount: 0,
-		name: "Snoozee",
+		name: "Dopey",
 		imgSrc: "https://placeimg.com/400/400/animals",
 		imageAttribution: "https:placeimg.com",
-		nickNames: ["ZZZZZipper", "Wood Choppa", "Coffee?", "mmmuhhhwut?"]
+		nickNames: ["Mr. Bounce", "The Nemesis", "Stripe", "Rubber Tush"]
 	},
 
 	{
