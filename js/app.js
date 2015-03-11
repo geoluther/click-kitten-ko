@@ -1,5 +1,6 @@
 // knockout js file
 var initialCats = [
+<<<<<<< HEAD
 	{
 		clickCount: 0,
 		name: "Tabby",
@@ -44,6 +45,55 @@ var initialCats = [
 var Cat = function(data) {
 
 	this.clickCount = ko.observable(data.clickCount);
+=======
+{
+	clickCount: 0,
+	name: "Tabby",
+	imgSrc: "https://placeimg.com/400/400/animals",
+	imageAttribution: "https:placeimg.com",
+	nickNames: ["King Tabby", "Tabberious Maximus", "Killer", "El Chapo"]
+},
+
+{
+	clickCount: 0,
+	name: "Tigger",
+	imgSrc: "https://placeimg.com/400/400/animals",
+	imageAttribution: "https:placeimg.com",
+	nickNames: ["Mr. Bounce", "The Nemesis", "Stripe", "Rubber Tush"]
+},
+
+
+{
+	clickCount: 0,
+	name: "sleepy",
+	imgSrc: "https://placeimg.com/400/400/animals",
+	imageAttribution: "https:placeimg.com",
+	nickNames: ["Mr. Bounce", "The Nemesis", "Stripe", "Rubber Tush"]
+},
+
+{
+	clickCount: 0,
+	name: "sneezy",
+	imgSrc: "https://placeimg.com/400/400/animals",
+	imageAttribution: "https:placeimg.com",
+	nickNames: ["Mr. Bounce", "The Nemesis", "Stripe", "Rubber Tush"]
+},
+
+{
+	clickCount: 0,
+	name: "stinky",
+	imgSrc: "https://placeimg.com/400/400/animals",
+	imageAttribution: "https:placeimg.com",
+	nickNames: ["Mr. Poo", "The Nemesis", "Stripe", "Rubber Tush"]
+},
+
+];
+
+
+var Cat = function(data) {
+
+	this.clickCount = data.clickCount;
+>>>>>>> origin/master
 	this.name = data.name;
 	this.imgSrc = data.imgSrc;
 	this.imageAttribution = data.imageAttribution;
@@ -51,11 +101,20 @@ var Cat = function(data) {
 
 	this.level = ko.computed(function() {
 
+<<<<<<< HEAD
 		var cc = this.clickCount();
 		var title = "Tail Wagger";
 
 		if ( cc > 5 && cc <= 10 ) {
 			title = "Ear Scratcher";
+=======
+		var cc = this.clickCount;
+		
+		var title = "Novice";
+
+		if ( cc > 5 && cc <= 10 ) {
+			title = "Advanced Beginner";
+>>>>>>> origin/master
 		} else	if ( cc > 10 && cc <= 25 ) {
 			title = "Neck Hugger";
 		} else if ( cc > 25 && cc <= 50 ) {
@@ -81,6 +140,7 @@ var ViewModel = function() {
 	this.currentCat = ko.observable(this.catList()[0]);
 
 	this.incrementCounter =  function() {
+<<<<<<< HEAD
 		self.currentCat().clickCount(self.currentCat().clickCount() + 1);
 		console.log(this.clickCount);
 	}	
@@ -88,6 +148,18 @@ var ViewModel = function() {
 	this.setCurrent = function(clickedCat) {
 		self.currentCat(clickedCat);
 		console.log(cat.name);
+=======
+		self.currentCat().clickCount += 1;
+		console.log(self.currentCat().clickCount);
+	}	
+
+	this.setCurrent = function(index) {
+		self.currentCat(self.catList()[index]);
+	}
+
+	this.clickLog = function() {
+		console.log("you clicked the list");
+>>>>>>> origin/master
 	}
 
 	this.clickLog = function(cat) {
