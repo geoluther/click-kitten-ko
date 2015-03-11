@@ -23,13 +23,13 @@
 		attr: {src: imgSrc} ">
 	</div>
 
-	<div class="col-sm-4"><h3>Choose an Animal:</h3>
+	<div class="col-sm-4"><h3>Click an Animal:</h3>
 		<ul data-bind="foreach: catList">
 			<li data-bind="text: name, click: $parent.setCurrent"></li>
 		</ul>
 
 		<div data-bind="with: currentCat">
-		<h3>Nicknames: </h3>
+		<h3>Nicknames</h3>
 		<ul data-bind="foreach: nickNames">
 			<li data-bind="text: $data"></li>
 		</ul>

@@ -26,10 +26,10 @@ var initialCats = [
 
 	{
 		clickCount: 0,
-		name: "Sneezy",
+		name: "Snoozee",
 		imgSrc: "https://placeimg.com/400/400/animals",
 		imageAttribution: "https:placeimg.com",
-		nickNames: ["Mr. Bounce", "The Nemesis", "Stripe", "Rubber Tush"]
+		nickNames: ["ZZZZZipper", "Wood Choppa", "Coffee?", "mmmuhhhwut?"]
 	},
 
 	{
