@@ -3,7 +3,7 @@ var initialCats = [
 	{
 		clickCount: 0,
 		name: "Tabby",
-		imgSrc: "https://placeimg.com/400/400/animals",
+		imgSrc: "./img/animal-1.jpg",
 		imageAttribution: "https:placeimg.com",
 		nickNames: ["King Tabby", "Tabberious Maximus", "Killer", "El Chapo"]
 	},
@@ -11,7 +11,7 @@ var initialCats = [
 	{
 		clickCount: 0,
 		name: "Tigger",
-		imgSrc: "https://placeimg.com/400/400/animals",
+		imgSrc: "./img/animal-2.jpg",
 		imageAttribution: "https:placeimg.com",
 		nickNames: ["Mr. Bounce", "The Nemesis", "Stripe", "Rubber Tush"]
 	},
@@ -19,7 +19,7 @@ var initialCats = [
 	{
 		clickCount: 0,
 		name: "Snoozie",
-		imgSrc: "https://placeimg.com/400/400/animals",
+		imgSrc: "./img/animal-3.jpg",
 		imageAttribution: "https:placeimg.com",
 		nickNames: ["ZZZZZipper", "Wood Choppa", "Coffee?", "mmmuhhhwut?"]
 	},
@@ -27,7 +27,7 @@ var initialCats = [
 	{
 		clickCount: 0,
 		name: "Dopey",
-		imgSrc: "https://placeimg.com/400/400/animals",
+		imgSrc: "./img/animal-4.jpg",
 		imageAttribution: "https:placeimg.com",
 		nickNames: ["Mr. Bounce", "The Nemesis", "Stripe", "Rubber Tush"]
 	},
@@ -35,7 +35,7 @@ var initialCats = [
 	{
 		clickCount: 0,
 		name: "Stinky",
-		imgSrc: "https://placeimg.com/400/400/animals",
+		imgSrc: "./img/animal-5.jpg",
 		imageAttribution: "https:placeimg.com",
 		nickNames: ["Mr. Poo", "The Nemesis", "Stripe", "Rubber Tush"]
 	}
